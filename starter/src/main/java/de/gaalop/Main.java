@@ -14,7 +14,14 @@ public class Main {
 
     public static final String LIB_FOLDER = "plugins";
 
-    public static final String MAIN_CLASS = "de.gaalop.gui.Main";
+
+    // The following two lines dictate whether launch to the GUI or to the command line interface
+    // Currently by default it is set to launch to the cli. 
+    // To change this you can uncomment one line and comment the other
+    // In the longer term this would be much better passed as a command line argument...
+
+    //public static final String MAIN_CLASS = "de.gaalop.gui.Main";
+    public static final String MAIN_CLASS = "de.gaalop.cli.Main";
 
     /**
      * Starts Gaalop.
